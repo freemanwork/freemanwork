@@ -11,7 +11,7 @@ body {
     max-width: 100%;
     background-image: url("/img/backdrop.png");
     background-repeat: no-repeat;
-    background-color: #cccc;
+    background-color: transparent;
     background-position: center;
     background-size: cover;
    /* background-repeat: no-repeat;*/
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #CCCC;
+    background-color: transparent;
     padding: 10px;
 
 }
