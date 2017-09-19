@@ -9,9 +9,9 @@ body {
     margin: 0 auto;
     width: 900px;
     max-width: 100%;
-    background-image: url("/img/backdrop.png");
+    background-image: url("../img/backdrop.png");
     background-repeat: no-repeat;
-    background-color: transparent;
+/*    background-color: transparent;*/
     background-position: center;
     background-size: cover;
    /* background-repeat: no-repeat;*/
@@ -131,6 +131,8 @@ h2 {
     text-align: center;
     font-style: italic;
     font-weight: 100;
+    margin-bottom: 15px;
+    margin-top: 5px;
 
     
 }
