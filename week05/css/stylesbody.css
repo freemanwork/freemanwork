@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 80%;
+    margin: 0 auto;
+    width: 900px;
+    max-width: 100%;
+}
+
+header {
+    background-color: transparent;
+    padding: 10px;
+
+}
+
+
+nav {
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-top: 40px;
+    text-align: left;
+    margin-top: -25px;
+    margin-bottom: -25px;
+/*
+    margin-top: -25px;
+    margin-bottom: -25px;
+*/
+}
+
+li {
+list-style-type: none;
+}
+
+
+.nav-links:link {
+    color: black;
+    text-decoration:none;
+    font-size: 1em;
+/*    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;*/
+    text-align: center;
+    background-color: #2A6BB4;
+    padding: 5px;
+    background: white;
+    line-height: 135px;
+}
+.nav-links:visited {
+    color: black;
+    text-decoration:none;
+    font-size: 5em;
+    text-align: center;
+}
+.nav-links:hover {
+    color:#2A6BB4;
+}
+.subnav-links:link {
+    text-align: center;
+    color: black;
+    text-decoration:none;
+    font-size: 2em;
+    display: inline-block;
+    box-shadow: 5px 5px;
+    border-style: solid;
+}
+.subnav-links:visited {
+    color: black;
+    text-decoration:none;
+    font-size: 2em;
+    display: inline-block;
+    text-align: center;
+}
+.subnav-links:hover {
+    color:#2A6BB4;
+}
+
+.subnav-links li {
+    text-align: center;
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    position: relative;
+    /*left: 15%;*/
+   /* transform: translateX(-50&);*/
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.current-page {
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+article {
+    padding-bottom: 20px;
+}
+
+
+.reference-image {
+    left: 150px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+}
+.container {
+    margin-top: 20px;
+}
+.left {
+    width: 40%;
+    float: left;
+}
+.right {
+    width: 60%;
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+}
+.submitform {
+    margin: auto;
+    width: 60%;
+}
+.centertext {
+    text-align: left;
+    padding-left: 150px;
+    padding-right:150px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+/*    box-shadow: 10px 10px;
+    border-style: solid;
+    border-color: black;
+    margin: 30px;*/
+}
+
+/*#clear {
+    clear: both;
+}*/
+
+h1 {
+    color: black;
+    font-size: 2.1875em;
+    background-color: white;
+    padding: 15px;
+    background: white;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+    font-style: italic;
+    font-weight: 100;
+/*    box-shadow: 10px 10px;
+    border-style: solid;
+    border-color: black;
+    margin: 30px;*/
+    
+
+    
+}
+
+h3 {
+    color: black;
+    font-size: 1.2em;
+    font-style: oblique;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: none;
+
+}
+p {
+    color: #4C4C4C;
+    font-size: .9375em;
+   padding: 10px;
+    padding-left: 40px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 25px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2A6BB4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.headshotimage{
+    display:none;
+}
+
+.headshot:hover .headshotimage{
+    display: block;
+}
+/*.work {
+  border: 2px solid #f4412a;
+  box-shadow: 5px 5px 0px 0px #f4412a;
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 68%;
+  z-index: -1;
+    display:none;
+}
+
+.showwork {
+  border-bottom: 2px solid #2A6BB4;
+  cursor: pointer;
+}
+
+.showwork:hover work {
+  display: block;
+}*/
+a {
+    color: black;
+}
+a img {
+    display: none;
+    text-decoration: none;
+}
+.profile {
+    top: 80%;
+    left: 10%;
+}
+a:hover img{
+    display: block;
+    text-decoration: none;
+    box-shadow: 5px 5px;
+    border-style: solid;
+    color: #2A6BB4;
+    float: left;
+    width: 28em;
+    position: absolute;
+    left: 60%;
+    bottom: 30%;
+}
+
+input[type=submit]:hover {
+    background-color: #2A6BB4;
+}
+
+footer {
+    text-align: left;
+}
