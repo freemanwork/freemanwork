@@ -8,14 +8,16 @@ body {
     font-family: 'Space Mono', monospace;
     font-size: 80%;
     margin: 0 auto;
-    width: 900px;
-    max-width: 100%;
+    width: 90%;
 }
 
 header {
-    background-color: transparent;
-    padding: 10px;
-
+    border-color: 1px black;
+    border-style: solid;
+    max-height: 80px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%;
 }
 
 
@@ -24,7 +26,7 @@ nav {
     padding-left: 35px;
     padding-top: 40px;
     text-align: left;
-    margin-top: -25px;
+    margin-top: -70px;
     margin-bottom: -25px;
 /*
     margin-top: -25px;
@@ -125,8 +127,9 @@ article {
 }
 .centertext {
     text-align: left;
-    padding-left: 150px;
-    padding-right:150px;
+    padding-left: 20%;
+    padding-right:20%;
+    padding-top: 100px;
 }
 img{
     max-width: 100%;
@@ -227,6 +230,7 @@ input[type=submit] {
 .showwork:hover work {
   display: block;
 }*/
+
 a {
     color: black;
 }
@@ -234,9 +238,17 @@ a img {
     display: none;
     text-decoration: none;
 }
-.profile {
-    top: 80%;
-    left: 10%;
+.profile:hover img {
+    display: block;
+    text-decoration: none;
+    box-shadow: 5px 5px;
+    border-style: solid;
+    color: #2A6BB4;
+    float: left;
+    width: 28em;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
 }
 a:hover img{
     display: block;
@@ -248,7 +260,15 @@ a:hover img{
     width: 28em;
     position: absolute;
     left: 60%;
-    bottom: 20%;
+    bottom: 10%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 9px;
+    right: 22px;
+    display: none;
+    border: none;
 }
 
 input[type=submit]:hover {
