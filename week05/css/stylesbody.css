@@ -120,6 +120,7 @@ article {
     float: left;
     max-height: 100%;
     max-width: 100%;
+    padding-left: 15px;
 }
 .submitform {
     margin: auto;
@@ -129,7 +130,7 @@ article {
     text-align: left;
     padding-left: 20%;
     padding-right:20%;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 img{
     max-width: 100%;
@@ -245,7 +246,7 @@ a img {
     border-style: solid;
     color: #2A6BB4;
     float: left;
-    width: 28em;
+    width: 23em;
     position: absolute;
     left: 5%;
     bottom: 25%;
@@ -263,7 +264,7 @@ a:hover img{
     bottom: 10%;
 }
 
-.back-to-top {
+a.back-to-top {
     position: fixed;
     bottom: 9px;
     right: 22px;
