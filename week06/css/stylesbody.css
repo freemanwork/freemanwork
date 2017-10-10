@@ -291,6 +291,23 @@ input[type=submit]:hover {
     width: 100%;
     }
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 7px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 footer {
     text-align: left;
 }
