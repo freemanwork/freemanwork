@@ -59,6 +59,7 @@ list-style-type: none;
     line-height: 135px;
     box-shadow: 10px 10px;
     border-style: solid;
+    transition: opacity .4s ease;
 }
 
 .nav-links:visited {
@@ -69,9 +70,52 @@ list-style-type: none;
     background-color: white;
     padding: 5px;
     background: white;
+    transition: opacity .4s ease;
 }
 .nav-links:hover {
     color:#2A6BB4;
+    transition: opacity .4s ease;
+}
+.subnavlinks:link {
+    color: black;
+    text-decoration:none;
+    font-size: 3em;
+    text-align: left;
+    background-color: white;
+    padding: 5px;
+    background: white;
+}
+.experiment-nav:link {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+/*    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;*/
+    text-align: right;
+    background-color: white;
+    padding: 1px;
+    background: white;
+    line-height: 135px;
+    border-style: solid;
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+}
+
+.experiment-nav:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 2.5em;
+    background-color: white;
+    padding: 5px;
+    background: white;
+    bottom: 5%;
+    right: 5%;
+    position: relative;
+}
+.experiment-nav:hover {
+    color:#2A6BB4;
+    transform: rotateY(130deg);
 }
 .subnavlinks:link {
     color: black;
@@ -157,5 +201,6 @@ p {
 }
 
 footer{
+    
     text-align: center;
 }
