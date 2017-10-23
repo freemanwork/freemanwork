@@ -47,7 +47,7 @@ list-style-type: none;
 }
 .nav-links:visited {
     color: black;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 5em;
     text-align: left;
 }
@@ -367,6 +367,7 @@ color: white;
 	}
     .fotorama {
         width: 100%;
+        padding-left: 0px;
     }
    /* .subnav-links link{
         float: left;
