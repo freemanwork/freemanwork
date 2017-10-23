@@ -243,7 +243,14 @@ p {
         margin-right: 15%;
     }
     
-    
+    a.experiment-nav:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 2.5em;
+    background-color: white;
+    padding: 5px;
+    background: white;
+}
 }
 footer{
     
