@@ -78,6 +78,7 @@ list-style-type: none;
 }
 .subnav-links:hover {
     color:#2A6BB4;
+    transition: opacity .4s ease;
 }
 
 .subnav-links li {
