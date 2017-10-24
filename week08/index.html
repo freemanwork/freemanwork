@@ -13,34 +13,34 @@
     <header>
     <img class="logo" src="img/brandpic-03.png" alt="logo" style="width:250px;text-align: center;">
         <h1 class="name">PETER FREEMAN</h1>
-    <h2 class="description">Graphic Designer / <script language="JavaScript">
-<!--
-var r_text = new Array ();
-r_text[0] = "Graphic Communicator";
-r_text[1] = "Semi-pro Hopscotchist";
-r_text[2] = "Beanie Expert";
-r_text[3] = "Part-time Assistant to the Assistant Photographer";
-r_text[4] = "Midnight Snacker";
-r_text[5] = "Bitter Sweattalker";
-r_text[6] = "Plant Life Lover and Killer";
-var i = Math.floor(7*Math.random())
+<script language="JavaScript">
+var textarray = [
+"Creative Communicator",
+"Semi-pro Hopscotchist",
+"Beanie Expert",
+"Part-time Assistant to the Assistant Photographer",
+"Midnight Snacker",
+"Plant Life Lover and Killer",
+"Pixel Sorter",
+"Duke of the Risograph",
+"King of the Dumpling",
+"Chinatown Transplant",
+"Bike Fiend"// No comma after last entry
+];
 
-document.write(r_text[i]);
-        function Update () {
-         if (Input.GetMouseButtonDown (0)) {
-             Debug.Log (array[arrayPos]); //Prints current value to console.
-             if (arrayPos >= array.Length -1) {
-                  arrayPos = 0;
-             }
-             else {
-                 arrayPos += 1;
-             }
-         }
-     }
+function RndText() {
+var rannum= Math.floor(Math.random()*textarray.length);
+document.getElementById('description').innerHTML=textarray[rannum];
+}
+onload = function() { RndText(); }
 
-//-->
-</script></h2>
-        
+var inter = setInterval(function() { RndText(); }, 2000);
+
+</script>
+    </h2>
+    
+<body>
+    <h2> Graphic Designer</h2> <h2 id="description"></h2>
         <nav>
             <ul>
                 <li><a class="nav-links" href="work.html">WORK</a></li>
