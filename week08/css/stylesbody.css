@@ -417,10 +417,13 @@ a:hover img{
     bottom: 25%;
 }
     .subnav-links:link{
-        font-size: .4em;
+        font-size: .6em;
     }
     li{ 
-    margin-left: 10%;
+    margin-left: 8%;
+    }
+    ul.upper-header {
+        font-size: 1.5em;
     }
 /*.subnav-links li {
 left: -35%;
