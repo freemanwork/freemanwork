@@ -1,0 +1,129 @@
+body {
+    color: #f5f6f7;
+    font: 1.25em Montserrat, sans-serif;
+    line-height: 1.8;
+}
+
+p {
+    font-size: 1em;
+}
+
+.margin-gap {
+    margin-bottom: 2.8em;
+}
+
+
+.mybackground1 {
+    background-color: #009000;
+    /* Leafy Green */
+    color: #ffffff;
+}
+
+.mybackground1 img {
+    width: 30%;
+}
+
+.mybackground2 {
+    background: url(../img/backgrounds/tree-line1.jpg) no-repeat center center fixed;
+    /* background-color: #474e5d; */
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+}
+
+.mybackground3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.mybackground4 {
+    background-color: lightgray;
+    color: #474e5d;
+}
+
+
+.container-fluid {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 1.25em;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.row p {
+    margin-top: 2em;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 60%;
+}
+
+/*
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+*/
+
+.mybackground5 {
+    background: url(../img/backgrounds/tree-line2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+}
+
+.location-map {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 60%;
+}
+
+.mybackground6 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+
+.return-btn {
+    background-color: rgb(245, 245, 245); /* Set a background color */
+    background-color: rgba(245, 245, 245, 0.7); /* Set a background color */
+    border: none; /* Remove borders */
+    border-radius: 25px; /* Rounded corners */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    color: darkgreen; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    display: none; /* Hidden by default */
+    padding: 15px; /* Some padding */
+    position: fixed; /* Fixed/sticky position */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */   
+}
+
+.return-btn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+    color: whitesmoke; /* Text color */
+}

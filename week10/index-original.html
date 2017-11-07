@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeman Work</title>
+    <link rel="stylesheet" href="css/styles.css" media="all">
+</head>
+
+<body>
+    <header>
+    <img class="logo" src="img/brandpic-03.png" alt="logo" style="width:200px;text-align: center;">
+        <h1 class="name">PETER FREEMAN</h1>
+<script language="JavaScript">
+var textarray = [
+"Creative Communicator",
+"Semi-pro Hopscotchist",
+"Beanie Expert",
+"Part-time Assistant to the Assistant Photographer",
+"Midnight Snacker",
+"Plant Life Lover and Killer",
+"Pixel Sorter",
+"Duke of the Risograph",
+"King of the Dumpling",
+"Chinatown Transplant",
+"Pesto Pasta Professional",
+"Pesto Pasta Professional",
+"Bike Fiend"// No comma after last entry
+];
+
+function RndText() {
+var rannum= Math.floor(Math.random()*textarray.length);
+document.getElementById('description').innerHTML=textarray[rannum];
+}
+onload = function() { RndText(); }
+
+var inter = setInterval(function() { RndText(); }, 2000);
+
+</script>
+    
+    <h2> Graphic Designer</h2>
+        <h2> ///// </h2>
+  <h2 id="description"></h2>
+        <nav>
+            <ul>
+                <li><a class="nav-links" href="work.html">WORK</a></li>
+                <li><a class="nav-links" href="about.html">ABOUT</a></li>
+                <li><a class="experiment-nav" href="https://www.loyalvelvet.com" target="_blank">EXPERIMENTS</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!--<main>-->
+    <article role="main">
+     <!--  <li><a class="experiment-nav" href="http://loyalvelvet.com/" target="_blank">EXPERIMENTS</a></li> -->
+    </article>
+    <!--</main>-->
+    <!-- The footer for the entire page -->
+</body>
+</html>
